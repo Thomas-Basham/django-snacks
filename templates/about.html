@@ -1,7 +1,9 @@
-
 {% extends 'base.html' %}
 {% block title %} About {% endblock %}
-{% block content%}
-<h1>This is the about page</h1>
-<a class="button" href="{% url 'home' %}">Go Home</a>
+
+{% block content %}
+    <nav>
+        <a class="button" href="{% url 'home' %}">Go Home</a>
+    </nav>
+        <h1>This is the about page</h1>
 {% endblock %}

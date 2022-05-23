@@ -2,8 +2,11 @@
 
 {% extends 'base.html' %}
 {% block title %} Home {% endblock %}
-{% block content%}
-<h1>Hello Worrrrld</h1>
-<a class="button"  href="{% url 'about' %}">Go To About</a>
+
+{% block content %}
+<nav>
+    <a class="button" href="{% url 'about' %}">Go To About</a>
+</nav>
+    <h1>Hello Worrrrld</h1>
 {% endblock content %}
 
