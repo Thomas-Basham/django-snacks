@@ -1,5 +1,5 @@
 """
-ASGI config for django_snacks_project project.
+ASGI config for django-snacks-project project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
